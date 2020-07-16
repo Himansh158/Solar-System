@@ -128,7 +128,7 @@ function draw() {
 
   //increases the size of the sun
   angle = angle + angleSpeed;
-  if(frameCount % 30 === 0){
+  if(frameCount % 100 === 0){
     sun.scale = sun.scale + 0.01;
   }  
   
